@@ -1,6 +1,5 @@
-FROM node:14
+FROM open
 WORKDIR /usr/scr/webapp
-COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
