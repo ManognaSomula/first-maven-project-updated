@@ -1,5 +1,5 @@
-FROM openjdk:11
+FROM node:14
 COPY . /src/webapp
 WORKDIR /src/webapp
-RUN ["javac","index.jsp"]
-ENTRYPOINT ["java","index"}
+CMD ["node","index.jsp"]
+
