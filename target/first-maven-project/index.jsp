@@ -11,8 +11,6 @@
    <h1> Welcome to Student Information System </h1>
    
    
-   <h1> This is my new message </h1>
-   
    New Student? <a href="register.jsp"> Register </a> &nbsp;&nbsp;&nbsp;
    
    Existing Student ? <a href="login.jsp"> Login </a> 
